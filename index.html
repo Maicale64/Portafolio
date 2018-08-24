@@ -10,6 +10,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">	
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	</head>
 
 	
@@ -18,7 +19,7 @@
 	 <div class="wrapper">
 	<div class="banner-wrapper">
 		 
-		<header>
+	  <header>
 		<div class="header-inner">
 			<a href="index.html" id="logo">
 			
@@ -49,26 +50,13 @@
 			  <a href="#contact">Contacto</a>	
 				  </li>
 					<li>
-			  <a id="Flip" href="#Viewf">Trabajos</a>	
+			  <a href="#work">Trabajos</a>	
 				  </li>
 				
 				</ul>
 			</nav> 
-			<br><br><br>
-			<nav id="Viewf">
-			<ul>
-				<li>
-				<a href="Trabajo1.html">Trabajo 1</a>	
-				  </li>
-					<li>
-				<a href="Trabajo2.html">Trabajo 2</a>	
-					</li>
-					
-					<li>
-				<a href="Trabajo3.html">Trabajo 3</a>	
-					</li>
-				</ul>
-			</nav>
+			
+			
 			
 		  </div>
 		</header>
@@ -80,10 +68,10 @@
 			 <li> <img src="img/sliders/p2.1.jpg" alt="Slider DOS" id="mg2"> </li>
 			 <li> <img src="img/sliders/p3.1.jpg"  alt="Slider TRES" id="mg3"> </li>
 			 
-			 </ul>
-		 </div>
+		  </ul>
+	  </div>
 		
-		 </div>
+	   </div>
 	
 		 
 		 
@@ -162,10 +150,22 @@
 	
 	
 	
-	<footer>
-		<div class="banner-wrap">
-		<div class="icon-text">
-		<div class="icon-text-icon">
+<div class="trabajos">
+	<h3><a href="Trabajo1.html">Sitio 1</a></h3>
+	<img src="img/picts/trab1.jpg" id="ima">	
+	</div>
+<div class="trabajos">
+	<h3><a href="Trabajo2.html" id="work">Sitio 2</a></h3>
+  <img src="img/picts/trab2.jpg" id="ima"></div>
+	<div class="trabajos">
+	<h3><a href="Trabajo3.html">Sitio 3</a></h3>
+		<img src="img/picts/que mas queda.jpg" id="ima"></img>
+	</div>
+	
+<footer>
+	<div class="banner-wrap">
+	<div class="icon-text">
+	<div class="icon-text-icon">
 			
 		 <ul class="footer-nav">
 			 <li>
@@ -183,7 +183,7 @@
 			 <li>
 			<a href="#contact">Contact</a>
 			 </li>
-		  </ul>	
+	  </ul>	
 			
 		
 
@@ -237,11 +237,6 @@
 	
 	})
 
-	$(document).ready(function(){
-    $("#Flip").click(function(){
-        $("#Viewf").slideToggle("slow");
-    });
-});
 	
 	
 	</script>	

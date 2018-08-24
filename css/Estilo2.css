@@ -9,11 +9,23 @@ background-image: url(../img2/picts2/nice.jpg);
 	width: 100%;
 	height: 100%;
 }
+.clearfix.padding{
+clear: both;	
+padding: 2%;	
+}
+
 header{
 	background: #97939E;
 height: 100px;	
 top: 0;
 left: 0;
+}
+.sidebar{
+float: right;
+margin: 0 auto;
+width: 32%;	
+height: auto;
+padding: 1%;	
 }
 
 header #logg img{
@@ -64,7 +76,7 @@ color: #F15353;
 }
 
 a {
-color: #6E6A6A;	
+color: #FFFFFF;	
 text-decoration: none;	
 font-weight: bold;
 	
@@ -79,17 +91,37 @@ padding: 20px 0 20px;
 float: left;	
 margin: 0 auto;
 width: 60%;	
-height: auto;
+height: 230px;
 padding: 1%;	
 	
 }
-
+.trabajos img{
+	display: block;
+margin: 0 auto;	
+max-width: 100%;
+height: 200px;
+width: 300px;
+margin-bottom: -4px;
+}
+.trab{
+		font-family: sans-serif;
+            font-size: 18px;
+            margin: 0 auto;
+            padding: 40px 
+}
+.trabajos{
+	color: #FFFFFF;
+	width: 31.5%;	
+float: left;
+padding: 10px;
+text-align: center;
+}
 #sec2{
 	
 float: right;
 margin: 0 auto;
 width: 32%;	
-height: auto;
+height: 220px;
 padding: 1%;
 }
 p{
@@ -108,7 +140,7 @@ width: 365px;
 float: right;	
 margin: 0 auto;
 width: 70%;	
-height: auto;
+height: 145px;
 padding: 1%;	
 }
 
@@ -116,22 +148,30 @@ padding: 1%;
 	
 float: left;
 margin: 0 auto;
-width: 280px;	
-height: 125px;
-padding: 3% 1% 1% 1%;
+width: 270px;	
+height: 150px;
+padding: 0 1% 1% 1%;
 }
 
 #ccm2{
 width: 250px;
 	
 }
+h3{
+	font-size: 175%;
+	color: #FFFFFF;
+	text-align: center;
+	
+	
+	
+}
 
 #sec5{
 float: left;	
 margin: 0 auto;
-width: 60%;	
-height: auto;
-padding: 2%;
+width: 65%;	
+height: 200px;
+padding: 0 1% 1% 1%;
 	
 }
 
@@ -139,14 +179,15 @@ padding: 2%;
 #sec6{
 	
 float: right;
-margin: 0 auto;
-width: 30%;	
-height: auto;
-padding: 1%;
+
+width: 28%;	
+height: 175px;
+
 }
 #ccm3{
 width: 300px;
-	
+	float: right;
+	padding: 0 20px;
 }
 
 
@@ -212,15 +253,10 @@ float: left;
 }
 
  #contenedor{
-            -webkit-border-radius: 10px;
-            -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-            -moz-border-radius: 10px;
-            -moz-border-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-            -o-border-radius: 10px;
-            -o-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+           
             background: #FFFFFF;
-            border-radius: 0px;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+            
+   
             font-family: sans-serif;
             font-size: 18px;
             margin: 0 auto;
@@ -229,7 +265,7 @@ float: left;
 	 height: 400px;
 			color: #0E0F0F;
 			font-weight: bold;
-			align-content: center;
+			
         }
  
         .campo{
@@ -288,4 +324,111 @@ padding: 1%;
 	font-size: 100%;
 	width: 300px; 
 
+}
+@media screen and (max-width: 768px){
+	#sec1{
+	float:left;	
+		
+	}
+	p{
+		font-size: 60%;
+	}
+	h3{
+		font-size: 150%;
+	}
+	header{
+		height: 80px;
+		position: relative;
+	}
+	header #logg {
+		
+		margin: 15px 0 20px -25px;
+	}
+  
+	#menu-icon{
+		
+		display: table-cell;
+	}
+	
+	nav:hover ul {
+		display: table-cell;
+	} 
+	
+	nav ul  , nav:checked ul   {
+		display: none;
+	z-index: 1000;	
+	position:absolute;
+	padding: 20px;
+	background: #f5f5f5;
+	border: 1px solid #a5bdcd;
+right: 20px;
+		width: 30%;
+	opacity:.95; 	
+	}
+	
+	nav li{
+	text-align: center;
+		width: 100%;
+	
+	}
+	
+	#sec1{
+	width:350px; 	
+	height: 140px;
+		float: left;
+		padding: 20px 0 0 0;
+	
+	}
+	#sec2{
+		width: 34%;
+		height: 100px;
+		padding: 30px 0 0 0;
+	}
+	
+	#sec3{
+		width: 34%;
+		height: 150px;
+		padding: 30px 0 0 0;
+	}
+	
+	#ccm1{
+		width: 100%;
+		height: 100%;
+		
+	}
+	#sec5{
+		width: 50%;
+		height: 100px;
+		padding: 30px 0 0 0;
+	}
+	
+	#sec4{
+		
+		width: 60%;
+		margin: 0 auto;
+		
+	}
+	#ccm2{
+		width: 50%;
+		margin: 0 auto;
+		padding: 0 0 0 90px;
+	}
+	
+	#ccm3{
+	padding: 70px 0 0 0;	
+	width: 100%;	
+	}
+	#ima{
+		width: 95%;
+		height: 100px;
+	}
+	
+	.trabajos{
+		width: 30%;
+		margin: 0;
+	    padding: 1%;
+		
+	}
+	
+	
 }
